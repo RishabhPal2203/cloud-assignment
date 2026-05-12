@@ -6,7 +6,7 @@ A React-based Library Management System dashboard that displays books, members, 
 
 - **React 18** — UI
 - **Vite 6** — build tool
-- **Tailwind CSS v4** — styling (via `@tailwindcss/vite`)
+- **Tailwind CSS v4** — styling
 - **React Router v6** — client-side routing
 - **Recharts** — bar chart for borrow statistics
 
@@ -26,12 +26,6 @@ npm run dev
 ```
 
 Then open [http://localhost:5173/cloud-assignment/](http://localhost:5173/cloud-assignment/)
-
-## Deploy to GitHub Pages
-
-```bash
-npm run deploy
-```
 
 This runs `vite build` then pushes `dist/` to the `gh-pages` branch via the `gh-pages` package.
 
