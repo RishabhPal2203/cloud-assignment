@@ -1,0 +1,9 @@
+{
+  "headers": ["Name", "Email", "Membership", "Status"],
+  "rows": [
+    ["Alice Johnson", "alice@lib.com", "Premium", "Active"],
+    ["Bob Smith", "bob@lib.com", "Standard", "Active"],
+    ["Carol White", "carol@lib.com", "Standard", "Inactive"],
+    ["David Lee", "david@lib.com", "Premium", "Active"]
+  ]
+}

@@ -1,0 +1,5 @@
+{
+  "type": "bar",
+  "labels": ["Jan", "Feb", "Mar", "Apr", "May"],
+  "datasets": [{ "label": "Books Borrowed", "data": [120, 150, 100, 180, 200] }]
+}

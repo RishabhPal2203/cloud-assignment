@@ -1,0 +1,10 @@
+{
+  "headers": ["Title", "Author", "Genre", "Availability"],
+  "rows": [
+    ["The Great Gatsby", "F. Scott Fitzgerald", "Classic", "Available"],
+    ["1984", "George Orwell", "Dystopian", "Borrowed"],
+    ["To Kill a Mockingbird", "Harper Lee", "Fiction", "Available"],
+    ["Sapiens", "Yuval Noah Harari", "Non-Fiction", "Available"],
+    ["Dune", "Frank Herbert", "Sci-Fi", "Borrowed"]
+  ]
+}

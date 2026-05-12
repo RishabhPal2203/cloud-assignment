@@ -1,0 +1,28 @@
+[
+  {
+    "id": "home",
+    "label": "Home",
+    "path": "/",
+    "components": [
+      { "type": "Card", "dataUrl": "/data/summary-card.json" },
+      { "type": "Chart", "dataUrl": "/data/borrow-chart.json" }
+    ]
+  },
+  {
+    "id": "books",
+    "label": "Books",
+    "path": "/books",
+    "components": [
+      { "type": "Table", "dataUrl": "/data/books-table.json" }
+    ]
+  },
+  {
+    "id": "members",
+    "label": "Members",
+    "path": "/members",
+    "components": [
+      { "type": "Table", "dataUrl": "/data/members-table.json" },
+      { "type": "Card", "dataUrl": "/data/active-members.json" }
+    ]
+  }
+]
