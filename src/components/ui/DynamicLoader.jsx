@@ -29,8 +29,8 @@ function ComponentSlot({ type, dataUrl }) {
 export default function DynamicLoader({ components }) {
   return (
     <div className="flex flex-col gap-6">
-      {components.map((item, i) => (
-        <ComponentSlot key={i} type={item.type} dataUrl={item.dataUrl} />
+      {components.map((item) => (
+        <ComponentSlot key={item.dataUrl} type={item.type} dataUrl={item.dataUrl} />
       ))}
     </div>
   )

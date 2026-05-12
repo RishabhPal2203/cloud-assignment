@@ -19,7 +19,7 @@ export default function Card({ title, value, icon }) {
       </div>
       <div>
         <p className="text-sm text-gray-500">{title}</p>
-        <p className="text-2xl font-bold text-gray-800">{value.toLocaleString()}</p>
+        <p className="text-2xl font-bold text-gray-800">{value?.toLocaleString() ?? '—'}</p>
       </div>
     </div>
   )
